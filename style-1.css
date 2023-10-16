@@ -45,22 +45,22 @@ nav ul li {
     transition: .2s;
 }
 
-#nav-social {
+div#nav-social {
     display: flex;
     align-items: center;
     gap: 1.25rem;
 }
 
-#banner {
+section#banner {
     display: flex;
-    background-image: url(imagens/bg-image.svg);
+    background-image: url(imagens/banner-background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
 }
 
-#banner-container {
+div#banner-container {
     margin: auto;
     width: 45.625rem;
     height: 21.813rem;
@@ -72,11 +72,11 @@ nav ul li {
     border-radius: 2px;
 }
 
-#banner-container img {
+div#banner-container img {
     width: 3.125rem;
 }
 
-#banner-container h1 {
+div#banner-container h1 {
     font-family: 'Poppins';
     font-size: 2.5rem;
     font-weight: 500;
@@ -85,7 +85,7 @@ nav ul li {
     text-align: center;
 }
 
-#banner-container p {
+div#banner-container p {
     width: 33.563rem;
     font-family: Helvetica;
     font-size: 1.125rem;
@@ -93,10 +93,9 @@ nav ul li {
     line-height: 26px;
     letter-spacing: 0px;
     text-align: center;
-
 }
 
-#banner-container button {
+div#banner-container button {
     margin-top: 3.125rem;
     width: 19.375rem;
     height: 2.5rem;
@@ -115,12 +114,12 @@ nav ul li {
     cursor: pointer;
 }
 
-#banner-container button:hover {
+div#banner-container button:hover {
     box-shadow: 1px 1px 15px #56B280;
     transition: .3s;
 }
 
-#produtos-titulo { 
+div#products-title { 
     margin-top: 6.25rem;
     display: flex;
     flex-direction: column;
@@ -129,7 +128,7 @@ nav ul li {
     gap: 1.25rem;
 }
 
-#produtos-titulo h2 {
+div#products-title h2 {
     font-family: 'Poppins';
     font-size: 2.5rem;
     font-weight: 500;
@@ -139,7 +138,7 @@ nav ul li {
     color: #0B254B;
 }
 
-#produtos-titulo p {
+div#products-title p {
     font-family: 'Poppins';
     font-size: 1.125rem;
     font-weight: 500;
@@ -150,16 +149,16 @@ nav ul li {
     margin-bottom: 6.25rem;
 }
 
-#produtos-container {
+div#products-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 produtos em cada linha */
+    grid-template-columns: repeat(4, 1fr); /* 4 products em cada linha */
     grid-gap: 0.625rem;
     max-width: 1100px;
     margin: 0 auto;
     margin-bottom: 6.25rem;
 }
 
-.produto {
+div.product {
     width: 15.938rem;
     height: 15.313rem;
     background-color: #FFFFFF;
@@ -169,11 +168,11 @@ nav ul li {
     cursor: pointer;
 }
 
-.produto img {
+div.product img {
     background-color: #F7F8FA;
 }
 
-.produto h3 {
+div.product h3 {
     font-family: 'Poppins';
     font-size: 1em;
     font-weight: 500;
@@ -185,7 +184,7 @@ nav ul li {
     padding-top: 0.313rem;
 }
 
-.produto p {
+div.product p {
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 500;
@@ -196,7 +195,7 @@ nav ul li {
     padding-right: 1.125rem;
 }
 
-#beneficios {
+section#benefits {
     background-color: #F7F8FA;
     display: flex;
     justify-content: space-around;
@@ -204,7 +203,7 @@ nav ul li {
     height: 70vh;
 }
 
-#benefios-txt h3 {
+div#benefits-txt h3 {
     font-family: 'Poppins';
     font-size: 2.5rem;
     font-weight: 500;
@@ -214,7 +213,7 @@ nav ul li {
     color: #1D252C;
 }
 
-#benefios-txt p {
+div#benefits-txt p {
     font-family: 'Poppins';
     font-size: 1em;
     font-weight: 400;
@@ -225,7 +224,7 @@ nav ul li {
     margin-top: 10px;
 }
 
-#benefios-txt ul {
+div#benefits-txt ul {
     margin: 40px 0px 60px 0px;
     display: flex;
     flex-direction: column;
@@ -239,11 +238,11 @@ nav ul li {
     
 }
 
-#benefios-txt span {
+div#benefits-txt span {
     font-weight: 500;
 }
 
-#benefios-txt button {
+div#benefits-txt button {
     background-color: #56B280;
     color: #FFFF;
     width: 12.125rem;
@@ -261,24 +260,24 @@ nav ul li {
     cursor: pointer;
 }
 
-#benefios-txt button:hover {
+div#benefits-txt button:hover {
     box-shadow: 1px 1px 15px #56B280;
     transition: .3s;
 }
 
-#testimonials {
+section#testimonials {
     background-color: #56B2801A;
     height: 80vh;
 }
 
-#testimonials-txt {
+div#testimonials-txt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#testimonials-txt h2 {
+div#testimonials-txt h2 {
     padding-top: 1em;
     text-align: center;
     font-family: 'Poppins';
@@ -289,7 +288,7 @@ nav ul li {
     color: #0B254B;
 }
 
-#testimonials p {
+section#testimonials p {
     font-family: 'Poppins';
     font-size: 1.125rem;
     font-weight: 500;
@@ -300,14 +299,14 @@ nav ul li {
     padding-bottom: 2em;
 }
 
-#feedback-container {
+div#feedback-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.25rem;
 }
 
-.feedback {
+div.feedback {
     width: 21.875rem;
     padding: 1em;
     background-color: #FFFF;
@@ -319,7 +318,7 @@ nav ul li {
     border-radius: 5px;
 }
 
-.feedback h4 {
+div.feedback h4 {
     font-family: 'Poppins';
     font-size: 1.375rem;
     font-weight: 500;
@@ -329,7 +328,7 @@ nav ul li {
     color: #1D293F;
 }
 
-.feedback p {
+div.feedback p {
     font-family: Helvetica;
     font-size: 1.125rem;
     font-weight: 400;
@@ -339,11 +338,11 @@ nav ul li {
     color: #7C8087;
 }
 
-#popular {
+section#popular {
     height: 31.25rem;
 }
 
-#popular-txt h2 {
+div#popular-txt h2 {
     padding-top: 1em;
     font-family: 'Poppins';
     font-size: 2.5rem;
@@ -354,7 +353,7 @@ nav ul li {
     color: #0B254B;
 }
  
-#popular-txt p {
+div#popular-txt p {
     font-family: 'Poppins';
     font-size: 1.125rem;
     font-weight: 500;
@@ -364,7 +363,7 @@ nav ul li {
     padding-bottom: 1em;
 }
 
-#popular-container {
+div#popular-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -377,7 +376,7 @@ footer {
     padding: 2em;
 }
 
-#footer-container {
+div#footer-container {
     border-top: 1px solid #fff;
     background-color: #272727;
     display: flex;
@@ -385,7 +384,7 @@ footer {
     padding: 3rem 3.5rem;
 }
 
-.footer-list h3 {
+ul.footer-list h3 {
     font-family: 'Poppins';
     font-size: 1em;
     font-weight: 500;
@@ -395,7 +394,7 @@ footer {
     color: #56B280;
 }
 
-#footer-logo p {
+div#footer-logo p {
     font-family: 'Poppins';
     font-size: 1em;
     font-weight: 400;
@@ -405,7 +404,7 @@ footer {
     color: #FFFFFF;
 }
 
-.footer-list a {
+ul.footer-list a {
     font-family: 'Poppins';
     font-size: 1em;
     font-weight: 300;
@@ -415,7 +414,3 @@ footer {
     text-decoration: none;
     color: #E1E1E1;
 }
-
-
-
-
