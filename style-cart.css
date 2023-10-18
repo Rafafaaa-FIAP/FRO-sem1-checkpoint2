@@ -147,7 +147,7 @@ div#table-line-1 ul {
     gap: 0.625rem;
 }
 
-#txt-product h2 {
+#txt-product h2 a {
     font-family: 'Poppins';
     font-size: 1.625rem;
     font-weight: 500;
@@ -155,7 +155,13 @@ div#table-line-1 ul {
     letter-spacing: -0.8999999165534973px;
     text-align: left;
     color: #272727;
+    text-decoration: none;
 }
+
+#txt-product h2 a:hover {
+    text-decoration: underline;
+}
+
 
 #txt-product a {
     font-family: 'Roboto';

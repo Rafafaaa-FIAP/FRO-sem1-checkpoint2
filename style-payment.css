@@ -168,6 +168,11 @@ div#final-buttons {
     color: #56B280;
 }
 
+div#final-buttons button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 button {
     padding: 0.5rem 2rem;
     border-radius: 4px;
