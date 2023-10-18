@@ -26,7 +26,7 @@ nav {
     align-items: center;
     background-color: #FFFF;
     height: 4.688rem;
-    border: 1px solid #56B28033;
+    border-bottom: 1px solid #56B28033;
 }
 
 nav ul {
