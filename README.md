@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Checkpoint 2 - Front-End</h1>
-  <img src="https://github.com/studies2023-FIAP-ES-553521-ano1-06-FRO/Checkpoint-2-FRO/blob/main/imagens/candleaf-logo.png" alt="candleaf-logo" target="_blank" />
+  <img src="https://github.com/studies2023-FIAP-ES-553521-ano1-06-FRO/Checkpoint-2-FRO/blob/main/images/candleaf-logo.png" alt="candleaf-logo" target="_blank" />
 </div>
 <hr/>
 
