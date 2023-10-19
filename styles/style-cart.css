@@ -139,6 +139,12 @@ div#table-line-1 ul {
 #img-product {
     display: flex;
     align-items: center;
+    gap: 1rem;
+}
+
+#img-product > img {
+    width: 10rem;
+    background-color: #F7F8FA;
 }
 
 #txt-product {

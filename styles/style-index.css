@@ -63,7 +63,7 @@ nav a {
 
 section#banner {
     display: flex;
-    background-image: url("../imagens/banner-background.png");
+    background-image: url("../images/banner-background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
